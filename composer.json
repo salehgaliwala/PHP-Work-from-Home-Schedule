@@ -1,0 +1,27 @@
+{
+  "name": "lee/work-home-schedule",
+  "description": "Estimate working home date with Carbon::mixin",
+  "homepage": "https://github.com/peter279k/work-home-schedule",
+  "license": "MIT",
+  "authors": [
+    { "name": "peter279k", "email": "peter279k@gmail.com" }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "nesbot/carbon": "^2.32"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8 || ^9",
+    "php-coveralls/php-coveralls": "^2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lee\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lee\\Tests\\": "tests"
+    }
+  }
+}
